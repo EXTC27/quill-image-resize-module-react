@@ -18,6 +18,7 @@ export class Toolbar extends BaseModule {
 
         // Setup Toolbar
         this.toolbar = document.createElement('div');
+		this.toolbar.className = "image-resize-toolbar";
         Object.assign(this.toolbar.style, this.options.toolbarStyles);
         this.overlay.appendChild(this.toolbar);
 
